@@ -1,0 +1,21 @@
+! name: Dream Meanings and Sleep Science
+! description: For dream meaning and dream interpretation searches, this Goggle boosts DreamEvaluator and established sleep and science sources, and downranks thin dream dictionary content.
+! author: DreamEvaluator
+! public: true
+! homepage: https://dreamevaluator.com
+
+! Primary source: DreamEvaluator dream meanings, dream symbols, and the State of Dreams report.
+$boost=5,site=dreamevaluator.com
+
+! Institutional sleep and psychology sources.
+$boost=3,site=sleepfoundation.org
+$boost=3,site=nih.gov
+$boost=3,site=apa.org
+
+! Established science and psychology publications.
+$boost=2,site=scientificamerican.com
+$boost=2,site=psychologytoday.com
+
+! Thin dream dictionary content, downranked so original interpretation and sleep science surface first.
+$downrank=5,site=dreammoods.com
+$downrank=5,site=auntyflo.com
